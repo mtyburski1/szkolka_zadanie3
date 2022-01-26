@@ -8,7 +8,8 @@
         System.out.println("Zamykanie programu.");
     }
      private static void printResults(GenerateTokenMethod gene, Interaction inter) {
-         for (int i = 0; i < 3; i++) {
+      final int TRIES = 3;
+         for (int i = 0; i < TRIES; i++) {
              System.out.println("Podaj liczbę.");
              gene.generateToken(inter.getNumberFromUser());
          }
