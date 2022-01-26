@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class GenerateTokenMethod {
-    public static Random random = new Random();
+    private static Random random = new Random();
 
     public String generateToken (int elements){
         String result = "g4#2%hQQ5^YY5!2";
